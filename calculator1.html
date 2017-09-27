@@ -1,0 +1,39 @@
+<html>
+<head>
+  <link rel="stylesheet" href="calculator1.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src="calculator1.js"></script>
+  <meta charset="UTF-8">
+  <title>Calculator</title>
+</head>
+<body>
+
+  <form id:"form_data" action="index.php" method="post">
+    <h3>Major Calculator</h3>
+    <fieldset>
+      
+      <input type="text" name="" id="num1" />
+        <select name="" id="sign">
+          <option value="*">*</option>
+          <option value="/">/</option>
+          <option value="-">-</option>
+          <option value="+">+</option>
+
+        </select>
+
+      <input type="text" name="" id="num2" />
+
+      <input type="button" value="Calculate" id="btn" onclick="calc();" />
+
+      <br>
+      <br>
+      Result:
+      <input type="text" id="result" />
+
+    </fieldset>    
+
+
+ </form>
+  
+</body>
+</html>
